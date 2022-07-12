@@ -1,0 +1,9 @@
+# Environment variables:
+# CURRENT_ENV                   | Current environment: production or development
+# PYTHONDONTWRITEBYTECODE       | Keeps Python from generating .pyc files in the container
+# PYTHONFAULTHANDLER            | Display trace when error occurs
+# PYTHONUNBUFFERED              | Sends print and log statements directly to stdout (terminal)
+# PIP_NO_CACHE_DIR              | Disable pip cache for smaller Docker images
+# PIP_DISABLE_PIP_VERSION_CHECK | Ignore pip new version warning
+# PIP_DEFAULT_TIMEOUT           | Give pip longer than the default 15 second timeout
+# POETRY_VERSION                | Poetry version to use

@@ -1,0 +1,45 @@
+# Use docker-compose -p App -f docker-compose.dev.yml --env-file ../../App/Env/Dev.env up
+# docker-compose -p App -f docker-compose.dev.yml --env-file ../../App/Env/Dev.env up -d --build dont use -d
+# docker-compose -p App -f docker-compose.dev.yml --env-file ../../App/Env/Dev.env up --build
+# docker-compose --env-file label.env up
+services:
+  backend:
+    build:
+      context: ../../App/Backend # Path to the directory that will be used to build the image, the '.'
+      dockerfile: ../../App/Backend/Build/Dockerfile # Path to the Dockerfile used to build the image
+      args:
+        APP_ENV: ${APP_ENV}
+    env_file:
+      - ../../App/Env/Dev.env
+    ports:
+    - "80:8000"
+    volumes:
+      - .:/App
+
+  frontend:
+    build:
+      context: ../../App/Frontend/
+      dockerfile: ../../App/Frontend/Build/Dockerfile
+      args:
+        APP_ENV: ${APP_ENV}
+    env_file:
+      - ../../App/Env/Dev.env
+    ports:
+    - "81:8000"
+    volumes:
+      - .:/App
+
+#volumes:
+#- ../../App/Storage:/App/Storage
+# postgres:
+#   restart: always
+#   image: postgres:latest
+#   container_name: postgres
+#   volumes:
+#     - ${PATH_TO_STORAGE}:/var/lib/postgresql/data/:rw <--- check this out
+#   ports:
+#     - "5432:5432"
+#   environment:
+#     POSTGRES_USER: ${POSTGRES_USER}
+#     POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+#     PGDATA: /var/lib/postgresql/data/ <--- Check this out
