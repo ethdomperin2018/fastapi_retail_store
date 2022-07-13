@@ -9,7 +9,9 @@
 ### Business Understanding
 
 >"The CFO of a retail chain held a meeting with his managers and talked about that the chain is in expansion phase and that there is still no sales analysis model for the chain as a whole. 
+>
 >The stores are divided by region and there's a lot of them. When having an easily accessible predictive model the CFO team will decide from which regions the expansion should start.
+>
 >That being said he asked you to do a sales analysis report for the next 8 weeks (2 months) that would cover the whole chain to help him and his team on the decision making process."
 
 #### 🚀 Built with
@@ -98,7 +100,7 @@ $ source Store_Sales_Analysis_env/bin/activate
 
 ##### 🚀 Installing required libraries
 
-On Project folder, look for the file `requirements.txt` inside Backend/Build and Frontend/Build folders and run the following command for each one:
+On Project folder, look for the file `requirements.txt` inside ```Backend/Build``` and ```Frontend/Build``` folders and run the following command for each one:
 
 ```
 pip install -r requirements.back.txt
@@ -107,24 +109,27 @@ pip install -r requirements.front.txt
 ## ☕📊 Reading the full analysis
 
 The **full analysis** is in the file `Store_Sales_Analysis.ipynb` inside the Notebooks folder.
+
 It has **WAY** more details than what is presented here. Be sure to take a look later.
 
 ### ☕📊 Analysis
 
 In order to illustrate we will be using only the main hypothesis and points brought up and developed by the analysis here in this presentation.
 
+First we're going to start with a Numerical and Categorical Analysis of the data.
+
 #### 📈 Numerical Attributes
 
 ![](Project/Schemes/General_data_description.png)
 
-##### 🔎 It's a lot of data, but what is our **focus**?
+#### 🔎 It's a lot of data, but what is our **focus**?
 - Our main object of study is **sales**, so the **'Sales'** column is the one we will analyze
 
 ![](Project/Schemes/Distribution_of_Sales_Table.png)
 
-- Close Median and Mean, indicates that we do not have a very large displacement of the normal distribution curve
-- This is confirmed by the Skew metric which is very close to 0, which indicates that the data are distributed very close to the normal and with little left or right skew
-- The Skew metric also indicates a subtle slope to the left, indicating what we call a positive slope
+- Close Median and Mean, indicates that we do not have a very large displacement from normal distribution curve
+- This is confirmed by the Skew metric which is very close to 0, which indicates that the data is distributed very close to the normal and with little left or right skew
+- The Skew metric also indicates a subtle slope to the left, indicating what we call a **positive slope**
 - Kurtosis metric is greater than 0, which indicates that we have a higher peak in the distribution
 
 Let's visualize all this with a distplot:
@@ -184,7 +189,7 @@ Let's analyze the three variables **'state_holiday'**, **'assortment'** and **'s
      - Or have products with higher prices
      - Or have the most popular products from the entire network
 
-#### ☕📝🧐 Hypotheses
+### ☕📝🧐 Hypotheses
 
 To get to Exploratory Data Analysis and know which way to go, let's make a list of hypotheses based on three questions to analyze in the next part of the project:
 
@@ -192,7 +197,7 @@ To get to Exploratory Data Analysis and know which way to go, let's make a list 
 - What are the agents that act on the phenomenon of interest?
 - What are the attributes of those agents?
 
-##### 📝 Here is our Hypotheses mind map:
+#### 📝 Here is our Hypotheses mind map:
 
 ![](Project/Schemes/Sales_Mind_Map.png)
 
@@ -202,23 +207,23 @@ To get to Exploratory Data Analysis and know which way to go, let's make a list 
 Hypothesis 1 **False**, Stores with **promotions active for longer** sell **less**, after a while sales drop in the general scenario, despite rising initially
 
 #### 📊 Stores with closer competitors should sell less.
-##### Let's visualize the scatter plot of sales by distance of competitors:
+#### Let's visualize the scatter plot of sales by distance of competitors:
 ![](Project/Schemes/H2.png)
 - We have much more sales in stores with closer competitors
 - The further away from competitors, the less sales are seen
 
-##### 📊 Let's see a bar chart grouping stores by distance of competitors
+#### 📊 Let's see a bar chart grouping stores by distance of competitors
 ![](Project/Schemes/H2_1.png)
 - This chart confirms the first scatter plot, the more close competitors the more sales happen
 
-##### 📊 Now with a correlation plot:
+#### 📊 Now with a correlation plot:
 ![](Project/Schemes/H2_2.png)
 
 With negative correlation, Hypothesis 2 is **False**, Stores with **closest competitors** sell **more**.
 
 #### 📊 Stores with longer competitors should sell more.
 
-##### 📊 Let's look at the three graphs together to draw conclusions:
+#### 📊 Let's look at the three graphs together to draw conclusions:
 - Let's see a barplot of sales by months of competition, over the last 10 years (120 months)
 - Let's do a polynomial regression plot to see the sales trend as the months go by
 
@@ -250,7 +255,7 @@ Since in this case we don't have something coming directly from the business, we
 
 As the data shows us, the final model is considerably better than the baseline model, cutting the RMSE by almost half when compared to it, and also outperforming it in all other metrics.
 
-##### 📉 Let's see the error distribution per prediction:
+#### 📉 Let's see the error distribution per prediction:
 
 ![](Project/Schemes/Error_dist.png)
 
@@ -258,7 +263,7 @@ As the data shows us, the final model is considerably better than the baseline m
 
 Here we will see what the model did to improve business performance, making an overall revenue forecast for the entire retail chain.
 
-##### 🏢📊 Model Performance in Business
+#### 🏢📊 Model Performance in Business
 ![](Project/Schemes/Model_Performance_in_Business.png)
 
 #### 🏢💰 Business Performance Gain
@@ -272,7 +277,7 @@ We have the best and worst sales scenario for the entire store network, adding u
 
 With this, we conclude that after the analysis, the selected features, the trained model and its refined parameters, that the final model has a **higher success rate** than the method used **previously** in **sales prediction**.
 
-##### 💻 Currently at version 1.0.0
+#### 💻 Currently at version 1.0.0
 
 - [x] Telegram endpoint available
 - [x] Predict endpoint available
@@ -286,7 +291,7 @@ With this, we conclude that after the analysis, the selected features, the train
 - [x] APP detailed Scheme
 - [x] API working on Flask
 
-##### ⭐️ Features to be added
+#### ⭐️ Features to be added
 
 - [ ] Separate the main notebook into little ones, by chapters
 - [ ] Streamlit Web App (frontend)
