@@ -45,9 +45,9 @@ The ```/Telegram``` endpoint only communicates with the Telegram servers and the
 <img src="Project/Schemes/App_Detailed_Scheme.png" min-width="800px" max-width="800px" width="700px" align="center" alt="Classes_Data_Science">
 
 The Frontend application has direct access only to the ```/Home``` endpoint, where lives the main page of the application, and has indirect access to the ```/Predict``` and ```/Docs``` endpoints, this last provided by FastAPI that details the backend endpoints and their respective functionality.
-#### 📝 How to use this Project
+### 📝 How to use this Project
 
-##### 💻 Pre-requisites
+#### 💻 Pre-requisites
 
 Before starting, make sure you've met the following requirements:
 
@@ -55,7 +55,7 @@ Before starting, make sure you've met the following requirements:
     * At least Python 3.6 is required.
     * Python 3.8 is recommended.
 
-##### 🚀 Creating a virtual environment
+#### 🚀 Creating a virtual environment
 
 - 💻🐍 Create a virtual environment for this project.
 
@@ -98,7 +98,7 @@ Store_Sales_Analysis_env\Scripts\Activate.ps1
 $ source Store_Sales_Analysis_env/bin/activate
 ```
 
-##### 🚀 Installing required libraries
+#### 🚀 Installing required libraries
 
 On Project folder, look for the file `requirements.txt` inside ```Backend/Build``` and ```Frontend/Build``` folders and run the following command for each one:
 
@@ -279,8 +279,8 @@ With this, we conclude that after the analysis, the selected features, the train
 
 #### 💻 Currently at version 1.0.0
 
-- [x] Telegram endpoint available
-- [x] Predict endpoint available
+- [x] ```/Telegram``` endpoint available
+- [x] ```/Predict``` endpoint available
 - [x] Data Science Pipeline Class
 - [x] Model available
 - [x] Backend main API
