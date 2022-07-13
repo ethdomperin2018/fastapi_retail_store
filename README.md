@@ -3,6 +3,9 @@
 # Store Sales Analysis
 
 #### Portfolio Project of a retail chain sales analysis
+
+#### [![Portfolio](https://img.shields.io/badge/Projects-Portfolio-blue)](andrewcode.herokuapp.com)
+  
 ##### Author: Andrew Laganaro
 
 ## 📜 About this project
