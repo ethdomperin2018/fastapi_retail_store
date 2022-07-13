@@ -4,7 +4,7 @@
 
 #### Portfolio Project of a retail chain sales analysis
 
-#### [![Portfolio](https://img.shields.io/badge/Projects-Portfolio-blue)](andrewcode.herokuapp.com)
+#### [![Portfolio](https://img.shields.io/badge/Projects-Portfolio-blue)]((https://andrewcode.herokuapp.com)
   
 ##### Author: Andrew Laganaro
 
