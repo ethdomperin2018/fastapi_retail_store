@@ -145,6 +145,8 @@ The best variables to analyze are **'state_holiday'**, **'assortment'** and **'s
 ![](Project/Schemes/Sales_holidays.png)
 Let's analyze the three variables **'state_holiday'**, **'assortment'** and **'store_type'** in the charts:
 
+![](Project/Schemes/Sales_Categorical.png)
+
 #### 💰📆Sales per Holiday:
 
 * The medians of the 3 types of holidays (**public**, **Easter** and **Christmas**) are very close
