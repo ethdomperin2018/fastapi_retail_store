@@ -141,9 +141,12 @@ As we thought, the distribution is mostly normal and skewed to the left.
 #### 📉 Categorical Attributes
 
 The best variables to analyze are **'state_holiday'**, **'assortment'** and **'store_type'**, as they have few variations (a,b,c etc) and are more relevant to our object of study.
+
 - Let's evaluate sales with respect to holidays:
+
 ![](Project/Schemes/Sales_holidays.png)
-Let's analyze the three variables **'state_holiday'**, **'assortment'** and **'store_type'** in the charts:
+
+- Let's analyze the three variables **'state_holiday'**, **'assortment'** and **'store_type'** in the charts:
 
 ![](Project/Schemes/Sales_Categorical.png)
 
