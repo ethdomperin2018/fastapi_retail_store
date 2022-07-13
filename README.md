@@ -4,7 +4,7 @@
 
 #### Portfolio Project of a retail chain sales analysis
 
-#### [![Portfolio](https://img.shields.io/badge/Projects-Portfolio-blue)]((https://andrewcode.herokuapp.com)
+#### [![Portfolio](https://img.shields.io/badge/Projects-Portfolio-blue)](https://andrewcode.herokuapp.com)
   
 ##### Author: Andrew Laganaro
 
@@ -33,7 +33,7 @@
 
 ####  ⬇️ Take a look at my Portfolio ⬇️
   
-  [![Portfolio](https://img.shields.io/badge/Projects-Portfolio-blue)](andrewcode.herokuapp.com)
+  [![Portfolio](https://img.shields.io/badge/Projects-Portfolio-blue)](https://andrewcode.herokuapp.com)
   
 #### 🎯 General project status
 
@@ -323,5 +323,5 @@ With this, we conclude that after the analysis, the selected features, the train
 
 ####  ⬇️ Take a look at my Portfolio ⬇️
   
-  [![Portfolio](https://img.shields.io/badge/Projects-Portfolio-blue)](andrewcode.herokuapp.com)
+  [![Portfolio](https://img.shields.io/badge/Projects-Portfolio-blue)](https://andrewcode.herokuapp.com)
   
