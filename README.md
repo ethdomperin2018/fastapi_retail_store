@@ -2,7 +2,7 @@
 
 # Store Sales Analysis
 
-#### Portfolio Project of a retail chain sales analysis
+#### Portfolio Project of a retail chain sales analysis, deployment made with REST API and Telegram Bot
 
 #### [![Portfolio](https://img.shields.io/badge/Projects-Portfolio-blue)](https://andrewcode.herokuapp.com)
   
