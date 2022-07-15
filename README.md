@@ -4,7 +4,7 @@
 
 # Análise de Vendas de Rede de Lojas
 
-#### Pojeto de Portfolio sobre uma análise de vendas de uma rede de varejo com deploy via REST API e Bot do Telegram
+#### Projeto de Portfolio sobre uma análise de vendas de uma rede de varejo com deploy via REST API e Bot do Telegram
 
 ##### Readme In English <p align="left"> ▶<kbd><a href="https://github.com/AndrewLaganaro/Store_Sales_Analysis/blob/main/README.en.md" alt="American"> <img title="American" alt="American" src="Project/Schemes/usa.png" width="20"></a></kbd>◀ </p>
 
