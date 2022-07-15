@@ -6,6 +6,8 @@
 
 #### Pojeto de Portfolio sobre uma análise de vendas de uma rede de varejo com deploy via REST API e Bot do Telegram
 
+##### Readme In English: <p align="left"> ▶<kbd><a href="https://github.com/AndrewLaganaro/Store_Sales_Analysis/blob/main/README.en.md" alt="American"> <img title="American" alt="American" src="Project/Schemes/usa.png" width="20"></a></kbd>◀ </p>
+
 #### [![Portfolio](https://img.shields.io/badge/Projects-Portfolio-blue)](https://andrewcode.herokuapp.com)
 
 ##### Author: Andrew Laganaro
@@ -34,11 +36,6 @@
 * 🪐Jupyter Notebook
 * 🐳Docker
 * 🖼Drawio
-
-<p align="left">
-  ▶<kbd><a href="https://github.com/AndrewLaganaro/Store_Sales_Analysis/blob/main/README.en.md" alt="American">
-  <img title="American" alt="American" src="Project/Schemes/usa.png" width="20"></a></kbd>◀
-</p>
 
 ### 🛠 Projetos
 
