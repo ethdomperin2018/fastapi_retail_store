@@ -4,7 +4,7 @@
 
 #### Portfolio Project of a retail chain sales analysis, deployment made with REST API and Telegram Bot
 
-##### Leia-me em português: <p align="left">  ▶<kbd><a href="https://github.com/AndrewLaganaro/Store_Sales_Analysis/blob/main/README.md" alt="Brazilian">  <img title="Brazilian" alt="Brazilian" src="Project/Schemes/br.jpg" width="20"></a></kbd>◀ </p>
+##### Leia-me em português <p align="left">  ▶<kbd><a href="https://github.com/AndrewLaganaro/Store_Sales_Analysis/blob/main/README.md" alt="Brazilian">  <img title="Brazilian" alt="Brazilian" src="Project/Schemes/br.jpg" width="20"></a></kbd>◀ </p>
 
 #### [![Portfolio](https://img.shields.io/badge/Projects-Portfolio-blue)](https://andrewcode.herokuapp.com)
 
