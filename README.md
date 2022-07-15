@@ -74,7 +74,9 @@ Um bot de Telegram foi criado como deploy da análise e para interagir com o usu
 Ao acessar o Telegram Bot ```@Store_Sales_Analysis_bot``` o usuário pode enviar as seguintes mensagens:
 
 ```/start``` - Inicia o bot
+
 ```/22``` - Prevê as vendas para a loja número 22 da rede de varejo
+
 ```/41``` - Prevê as vendas para a loja número 41 da rede de varejo
 
 Exemplo de uso:
