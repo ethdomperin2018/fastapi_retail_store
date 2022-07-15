@@ -55,7 +55,7 @@
 
 #### 💻🐳🐍 Esquema detalhado do App
 
-Composto por **três partes principais**, Frontend, Backend e o Telegram bot, o Frontend é a principal interface visual na web onde o usuário pode interagir com o projeto, enquanto o Backend é a lógica interna, onde ocorrem o pipeline de data science, a análise das mensagens e a predição das vendas. O bot do telegram é onde o usuário pode interagir com o projeto enviando mensagens com comandos específicos para ter como retorno uma predição específica de uma loja ou de muitas.
+Composto por **três partes principais**, o Frontend, o Backend e o Telegram bot, o Frontend é a principal interface visual na web onde o usuário pode interagir com o projeto, enquanto o Backend é a lógica interna, onde ocorrem o pipeline de data science, a análise das mensagens e a predição das vendas. O bot do telegram é onde o usuário pode interagir com o projeto enviando mensagens com comandos específicos para ter como retorno uma predição específica de uma loja ou de muitas.
 
 <img src="Project/Schemes/Api_Detailed_Scheme.png" min-width="800px" max-width="800px" width="600px" align="center" alt="Classes_Data_Science">
 
