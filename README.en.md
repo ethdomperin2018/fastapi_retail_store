@@ -2,7 +2,10 @@
 
 # Store Sales Analysis
 
-#### Portfolio Project of a retail chain sales analysis with deploy via Telegram Bot
+#### Portfolio Project of a retail chain sales analysis, deployment made with REST API and Telegram Bot
+
+#### [![Portfolio](https://img.shields.io/badge/Projects-Portfolio-blue)](https://andrewcode.herokuapp.com)
+
 ##### Author: Andrew Laganaro
 
 ## 📜 About this project
@@ -32,6 +35,18 @@
   ▶<kbd><a href="https://github.com/AndrewLaganaro/Store_Sales_Analysis/blob/main/README.md" alt="Brazilian">
   <img title="Brazilian" alt="Brazilian" src="Project/Schemes/br.jpg" width="20"></a></kbd>◀
 </p>
+
+### 🛠 Projects
+
+  [![Store Sales Analysis](https://img.shields.io/badge/Projects-Store%20Sales%20Analysis-orange)](https://github.com/AndrewLaganaro/Store_Sales_Analysis)
+  
+  [![Data Science Framework](https://img.shields.io/badge/Projects-Data%20Science%20Framework-blue)](https://github.com/AndrewLaganaro/Data_Science_Framework)
+  
+  [![Data Science Classes](https://img.shields.io/badge/Projects-Data%20Science%20Classes-red)](https://github.com/AndrewLaganaro/Data_Science_Classes)
+
+####  ⬇️ Take a look at my Portfolio ⬇️
+  
+  [![Portfolio](https://img.shields.io/badge/Projects-Portfolio-blue)](https://andrewcode.herokuapp.com)
 
 #### 🎯 General project status
 
@@ -335,3 +350,10 @@ With this, we conclude that after the analysis, the selected features, the train
 (generated with [Data\_Science\_Framework](https://github.com/AndrewLaganaro/Data_Science_Framework))
 
 (modified from [Cookiecutter-Datascience](https://drivendata.github.io/cookiecutter-data-science/))
+
+---
+
+####  ⬇️ Take a look at my Portfolio ⬇️
+  
+  [![Portfolio](https://img.shields.io/badge/Projects-Portfolio-blue)](https://andrewcode.herokuapp.com)
+  

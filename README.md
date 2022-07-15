@@ -4,11 +4,10 @@
 
 # Análise de Vendas de Rede de Lojas
 
-#### Pojeto de Portfolio sobre uma análise de vendas de uma rede de varejo com deploy via Bot do Telegram
-#### Portfolio Project of a retail chain sales analysis, deployment made with REST API and Telegram Bot
+#### Pojeto de Portfolio sobre uma análise de vendas de uma rede de varejo com deploy via REST API e Bot do Telegram
 
 #### [![Portfolio](https://img.shields.io/badge/Projects-Portfolio-blue)](https://andrewcode.herokuapp.com)
-  
+
 ##### Author: Andrew Laganaro
 
 ---
@@ -41,8 +40,7 @@
   <img title="American" alt="American" src="Project/Schemes/usa.png" width="20"></a></kbd>◀
 </p>
 
-#### 🎯 Status geral do projeto
-### 🛠 Projects
+### 🛠 Projetos
 
   [![Store Sales Analysis](https://img.shields.io/badge/Projects-Store%20Sales%20Analysis-orange)](https://github.com/AndrewLaganaro/Store_Sales_Analysis)
   
@@ -50,11 +48,11 @@
   
   [![Data Science Classes](https://img.shields.io/badge/Projects-Data%20Science%20Classes-red)](https://github.com/AndrewLaganaro/Data_Science_Classes)
 
-####  ⬇️ Take a look at my Portfolio ⬇️
+####  ⬇️ Dá uma olhada no meu Portfolio ⬇️
   
   [![Portfolio](https://img.shields.io/badge/Projects-Portfolio-blue)](https://andrewcode.herokuapp.com)
   
-#### 🎯 General project status
+#### 🎯 Status geral do projeto
 
 ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
 
@@ -361,7 +359,7 @@ Com isso, concluímos que após a análise, a seleção das features para o mode
 
 ---
 
-####  ⬇️ Take a look at my Portfolio ⬇️
+####  ⬇️ Dá uma olhada no meu Portfolio ⬇️
   
   [![Portfolio](https://img.shields.io/badge/Projects-Portfolio-blue)](https://andrewcode.herokuapp.com)
   
