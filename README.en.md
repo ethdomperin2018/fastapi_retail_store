@@ -66,7 +66,7 @@ The ```/Telegram``` endpoint only communicates with the Telegram servers and the
 
 The Frontend application has direct access only to the ```/Home``` endpoint, where lives the main page of the application, and has indirect access to the ```/Predict``` and ```/Docs``` endpoints, this last provided by FastAPI that details the backend endpoints and their respective functionality.
 
-#### ✈️🤖🐍 Telgram Bot Functionality
+#### ✈️🤖🐍 Telgram Bot detailed Scheme
 
 A telelgram bot was created to deploy the analysis and interact with the user, mainly because of its practicality and ease of use, It could be use by the CFO team to get predictions in a easy and fast way.
 
