@@ -5,6 +5,10 @@
 # Análise de Vendas de Rede de Lojas
 
 #### Pojeto de Portfolio sobre uma análise de vendas de uma rede de varejo com deploy via Bot do Telegram
+#### Portfolio Project of a retail chain sales analysis, deployment made with REST API and Telegram Bot
+
+#### [![Portfolio](https://img.shields.io/badge/Projects-Portfolio-blue)](https://andrewcode.herokuapp.com)
+  
 ##### Author: Andrew Laganaro
 
 ---
@@ -38,6 +42,19 @@
 </p>
 
 #### 🎯 Status geral do projeto
+### 🛠 Projects
+
+  [![Store Sales Analysis](https://img.shields.io/badge/Projects-Store%20Sales%20Analysis-orange)](https://github.com/AndrewLaganaro/Store_Sales_Analysis)
+  
+  [![Data Science Framework](https://img.shields.io/badge/Projects-Data%20Science%20Framework-blue)](https://github.com/AndrewLaganaro/Data_Science_Framework)
+  
+  [![Data Science Classes](https://img.shields.io/badge/Projects-Data%20Science%20Classes-red)](https://github.com/AndrewLaganaro/Data_Science_Classes)
+
+####  ⬇️ Take a look at my Portfolio ⬇️
+  
+  [![Portfolio](https://img.shields.io/badge/Projects-Portfolio-blue)](https://andrewcode.herokuapp.com)
+  
+#### 🎯 General project status
 
 ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
 
@@ -341,3 +358,10 @@ Com isso, concluímos que após a análise, a seleção das features para o mode
 (generated with [Data\_Science\_Framework](https://github.com/AndrewLaganaro/Data_Science_Framework))
 
 (modified from [Cookiecutter-Datascience](https://drivendata.github.io/cookiecutter-data-science/))
+
+---
+
+####  ⬇️ Take a look at my Portfolio ⬇️
+  
+  [![Portfolio](https://img.shields.io/badge/Projects-Portfolio-blue)](https://andrewcode.herokuapp.com)
+  
