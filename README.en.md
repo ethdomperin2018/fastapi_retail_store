@@ -51,7 +51,7 @@
 
 #### 💻🐳🐍 App detailed Scheme
 
-Composed of three main parts, Frontend, Backend and Telegram bot, the Frontend is the main interface to the web while the Backend is the logic of the project where occurs the data science pipeline, message parsing and prediction. The telegram bot is where the user can interact with the project via sending messages with specific commands.
+Composed of **three main parts**, the Frontend, the Backend and the Telegram bot, the Frontend is the main visual interface on the web where the user can interact with the project, while the Backend is the internal logic, where the pipeline takes place. data science, message analysis and sales prediction. The telegram bot is where the user can interact with the project by sending messages with specific commands to return a specific prediction of a store or many.
 
 <img src="Project/Schemes/Api_Detailed_Scheme.png" min-width="800px" max-width="800px" width="600px" align="center" alt="Classes_Data_Science">
 
