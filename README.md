@@ -6,11 +6,13 @@
 
 #### Projeto de Portfolio sobre uma análise de vendas de uma rede de varejo com deploy via REST API e Bot do Telegram
 
-##### Readme In English <p align="left"> ▶<kbd><a href="https://github.com/AndrewLaganaro/Store_Sales_Analysis/blob/main/README.en.md" alt="American"> <img title="American" alt="American" src="Project/Schemes/usa.png" width="20"></a></kbd>◀ </p>
+##### Readme in English <p align="left"> ▶<kbd><a href="https://github.com/AndrewLaganaro/Store_Sales_Analysis/blob/main/README.en.md" alt="American"> <img title="American" alt="American" src="Project/Schemes/usa.png" width="20"></a></kbd>◀ </p>
+
+##### Léame en español <p align="left"> ▶<kbd><a href="https://github.com/AndrewLaganaro/Store_Sales_Analysis/blob/main/README.es.md" alt="Español"> <img title="Español" alt="Español" src="Project/Schemes/usa.png" width="20"></a></kbd>◀ </p>
 
 #### [![Portfolio](https://img.shields.io/badge/Projects-Portfolio-blue)](https://andrewcode.herokuapp.com)
 
-##### Author: Andrew Laganaro
+##### Autor: Andrew Laganaro
 
 ---
 
@@ -61,13 +63,13 @@ Composto por **três partes principais**, o Frontend, o Backend e o Telegram bot
 
 #### 💻🔌🐍 Esquema detalhado da Api
 
-O endpoint ```/Telegram``` só se comunica com os servidores do Telegram e, portanto, com o bot do Telegram, enquanto o endpoint ```/Predict``` é exposto à web para que o frontend possa interagir e enviar solicitações para ele conforme desejado pelo usuário do aplicativo wed.
+O endpoint ```/Telegram``` só se comunica com os servidores do Telegram e, portanto, com o bot do Telegram, enquanto o endpoint ```/Predict``` é exposto à web para que o frontend possa interagir e enviar solicitações para ele conforme desejado pelo usuário do aplicativo web.
 
 <img src="Project/Schemes/App_Detailed_Scheme.png" min-width="800px" max-width="800px" width="700px" align="center" alt="Classes_Data_Science">
 
 A aplicação Frontend tem acesso direto apenas ao endpoint ```/Home```, onde fica a página principal da aplicação, e tem acesso indireto aos endpoints ```/Predict``` e ```/Docs```, este último fornecido pelo FastAPI que detalha os endpoints de backend e suas respectivas funcionalidades.
 
-#### ✈️🤖🐍Esquema detalhado do Bot no Telgram
+#### ✈️🤖🐍 Esquema detalhado do Bot no Telegram
 
 Um bot de Telegram foi criado como deploy da análise e para interagir com o usuário, foi escolhido principalmente por sua praticidade e facilidade de uso, podendo ser utilizado pela equipe do CFO para obter previsões de forma fácil e rápida.
 
@@ -256,15 +258,20 @@ Hipótese 1 é **Falsa**, Lojas com **promoções ativas por mais tempo** vendem
 
 #### 📊 Lojas com concorrentes mais próximos devem vender menos.
 #### Vamos visualizar o gráfico de dispersão das vendas por distância dos concorrentes:
+
 ![](Project/Schemes/H2.png)
+
 - Temos muito mais vendas em lojas com concorrentes mais próximos
 - Quanto mais longe dos concorrentes, menos vendas são vistas
 
 #### 📊 Vamos ver um gráfico de barras agrupando as lojas por distância dos concorrentes
+
 ![](Project/Schemes/H2_1.png)
+
 - Este gráfico confirma o primeiro gráfico de dispersão, quanto mais próximos os concorrentes mais vendas acontecem
 
 #### 📊 Agora com um gráfico de correlação:
+
 ![](Project/Schemes/H2_2.png)
 
 Com correlação negativa, Hipótese 2 é **Falsa**, Lojas com **concorrentes mais próximos** vendem **mais**.
@@ -293,7 +300,7 @@ Como avaliamos o desempenho do modelo em relação ao desempenho do negócio? Ou
 
 É nessa fase que verificamos se todo o treinamento e refinamento do modelo valeu a pena em relação ao que já tínhamos préviamente no negócio.
 
-#### 📊⚙️🧩 Desempenho do modelo vs métodos de linha de base
+#### 📊⚙️🧩 Desempenho do modelo vs método de baseline
 
 Para isso, o problema de negócio já deve ter algum tipo de métrica de previsão prévia, por meio da qual será possível avaliar o desempenho do modelo.
 
@@ -313,6 +320,7 @@ Como os dados nos mostram, o modelo final é consideravelmente melhor que o mode
 Aqui veremos o que o modelo fez para melhorar o desempenho do negócio, fazendo uma previsão geral de receita para toda a cadeia de varejo nas próximas 8 semanas.
 
 #### 🏢📊 Modelo de Desempenho nos Negócios
+
 ![](Project/Schemes/Model_Performance_in_Business.png)
 
 #### 🏢💰 Ganho de Performance nos Negócios

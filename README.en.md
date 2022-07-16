@@ -6,6 +6,8 @@
 
 ##### Leia-me em português <p align="left">  ▶<kbd><a href="https://github.com/AndrewLaganaro/Store_Sales_Analysis/blob/main/README.md" alt="Brazilian">  <img title="Brazilian" alt="Brazilian" src="Project/Schemes/br.jpg" width="20"></a></kbd>◀ </p>
 
+##### Léame en español <p align="left"> ▶<kbd><a href="https://github.com/AndrewLaganaro/Store_Sales_Analysis/blob/main/README.es.md" alt="Español"> <img title="Español" alt="Español" src="Project/Schemes/usa.png" width="20"></a></kbd>◀ </p>
+
 #### [![Portfolio](https://img.shields.io/badge/Projects-Portfolio-blue)](https://andrewcode.herokuapp.com)
 
 ##### Author: Andrew Laganaro
@@ -57,7 +59,7 @@ Composed of **three main parts**, the Frontend, the Backend and the Telegram bot
 
 #### 💻🔌🐍Api detailed Scheme
 
-The ```/Telegram``` endpoint only communicates with the Telegram servers and thereby with the Telegram bot, whereas the ```/Predict``` endpoint is exposed to the web so the frontend can interact with and send requests to it as desired by the user from the wed application.
+The ```/Telegram``` endpoint only communicates with the Telegram servers and thereby with the Telegram bot, whereas the ```/Predict``` endpoint is exposed to the web so the frontend can interact with and send requests to it as desired by the user from the web application.
 
 <img src="Project/Schemes/App_Detailed_Scheme.png" min-width="800px" max-width="800px" width="700px" align="center" alt="Classes_Data_Science">
 
