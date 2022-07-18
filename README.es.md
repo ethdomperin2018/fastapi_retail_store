@@ -330,7 +330,7 @@ Aquí tenemos un gráfico y una tabla con el mejor y el peor escenario de ventas
 
 ![](Project/Schemes/Sales_Scenarios.png)
 
-Con esto, concluimos que después del análisis, la selección de características para el modelo, el modelo entrenado y sus parámetros refinados, el modelo final tiene una **tasa de éxito más alta** que el método utilizado **anteriormente** en * *previsión de ventas** de nuestra red minorista.
+Con esto, concluimos que después del análisis, la selección de características para el modelo, el modelo entrenado y sus parámetros refinados, el modelo final tiene una **tasa de éxito más alta** que el método utilizado **anteriormente** en **previsión de ventas** de nuestra red minorista.
 
 #### 💻 Actualmente en la versión 1.0.0
 
