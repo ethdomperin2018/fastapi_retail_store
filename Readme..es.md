@@ -7,7 +7,7 @@
 
 ##### Leia-me em português <p align="left">  ▶<kbd><a href="https://github.com/AndrewLaganaro/Store_Sales_Analysis/" alt="Brazilian">  <img title="Brazilian" alt="Brazilian" src="Project/Schemes/br.jpg" width="20"></a></kbd>◀ </p>
 
-##### Readme in English <p align="left"> ▶<kbd><a href="https://github.com/AndrewLaganaro/Store_Sales_Analysis/blob/main/README.en.md" alt="American"> <img title="American" alt="American" src="Project/Schemes/usa.png" width="20"></a></kbd>◀ </p>
+##### Readme in English <p align="left"> ▶<kbd><a href="https://github.com/AndrewLaganaro/Store_Sales_Analysis/blob/main/Readme.en.md" alt="American"> <img title="American" alt="American" src="Project/Schemes/usa.png" width="20"></a></kbd>◀ </p>
 
 #### [![Portfolio](https://img.shields.io/badge/Projects-Portfolio-blue)](https://andrewcode.herokuapp.com)
 
