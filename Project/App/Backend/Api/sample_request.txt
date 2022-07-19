@@ -1,0 +1,23 @@
+{
+"update_id":12345678910,
+"message":
+{"message_id":0,
+    "from":{"id":12345678910,
+            "is_bot":false,
+            "first_name":"USER",
+            "language_code":"pt-br"},
+"chat":{"id":4242,
+        "first_name":"USER",
+        "username":"USER_NAME",
+        "type":"private"},
+"date":12345678910,
+"text":"teste43"}
+}
+
+{
+"message":{"chat": {"id":573049435}, "text":"/40"}
+}
+Headers raw:
+Accept: */*
+User-Agent: Thunder Client (https://www.thunderclient.com)
+Content-Type: application/json
