@@ -47,9 +47,33 @@
   
   [![Portfolio](https://img.shields.io/badge/Projects-Portfolio-blue)](https://andrewcode.herokuapp.com)
 
-#### 🎯 General project status
+#### 📝 Method Used
 
-![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
+The method used to build the project and sales analysis was **Crisp-DM**.
+
+##### 📊 Crisp-DM Scheme
+
+![](Project/Schemes/Data%20Science%20Scheme.png)
+
+##### ⚙️ Project cycle with Crisp-DM
+
+<center>
+<img src="Project/Schemes/Data%20Science%20Project%20Cycle.png" min-width="400px" width="500px" align="center" alt="Classes_Data_Science">
+</center>
+
+Having different interpretations and variations, the chosen method is based on the **Crisp-DM** and presents the following phases:
+- Analysis Phase
+     - Data Collection
+     - Data Cleaning
+     - Data Analysis
+- Prediction Model Phase
+     - Feature Engineering
+     - Model Building
+     - Model Evaluation
+- Deployment Phase
+     - Visualization and Dashboard
+     - API development
+     - Web App development
 
 #### 💻🐳🐍 App detailed Scheme
 
@@ -319,6 +343,10 @@ We have the best and worst sales scenario for the entire store network, adding u
 ![](Project/Schemes/Sales_Scenarios.png)
 
 With this, we conclude that after the analysis, the selected features, the trained model and its refined parameters, that the final model has a **higher success rate** than the method used **previously** in **sales prediction**.
+
+#### 🎯 General project status
+
+![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
 
 #### 💻 Currently at version 1.0.0
 

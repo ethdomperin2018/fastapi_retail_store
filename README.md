@@ -51,9 +51,31 @@
   
   [![Portfolio](https://img.shields.io/badge/Projects-Portfolio-blue)](https://andrewcode.herokuapp.com)
   
-#### 🎯 Status geral do projeto
+#### 📝 Método Utilizado
 
-![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
+O método utilizado para construir o projeto e a análise de vendas foi o **Crisp-DM**.
+##### 📊 Esquema do Crisp-DM
+![](Project/Schemes/Data%20Science%20Scheme.png)
+
+##### ⚙️ Ciclo de projeto com Crisp-DM
+
+<center>
+<img src="Project/Schemes/Data%20Science%20Project%20Cycle.png" min-width="400px" width="500px" align="center" alt="Classes_Data_Science">
+</center>
+
+Tendo diversas interpretações e variações, o método escolhido é baseado no **Crisp-DM** e apresenta as seguintes fases:
+- Fase de Análise
+    - Data Collection
+    - Data Cleaning
+    - Data Analysis
+- Fase do Modelo de predição
+    - Feature Engineering
+    - Model Building
+    - Model Evaluation
+- Fase de Deployment
+    - Visualization and Dashboard
+    - API development
+    - Web App development
 
 #### 💻🐳🐍 Esquema detalhado do App
 
@@ -333,6 +355,10 @@ Aqui temos um gráfico e uma tabela com o melhor e o pior cenário de vendas par
 ![](Project/Schemes/Sales_Scenarios.png)
 
 Com isso, concluímos que após a análise, a seleção das features para o modelo, do modelo treinado e seus parâmetros refinados, que o modelo final possui uma **maior taxa de sucesso** do que o método utilizado **anteriormente** na **previsão de vendas** da nossa rede de varejo.
+
+#### 🎯 Status geral do projeto
+
+![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
 
 #### 💻 Atualmente na versão 1.0.0
 
