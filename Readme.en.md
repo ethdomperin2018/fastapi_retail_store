@@ -49,7 +49,7 @@
 
 #### 📝 Method Used
 
-The method used to build the project and sales analysis was **Crisp-DM**.
+The method used to build the project and sales analysis was **Crisp-DS**.
 
 ##### 📊 Crisp-DM Scheme
 
@@ -61,7 +61,7 @@ The method used to build the project and sales analysis was **Crisp-DM**.
 <img src="Project/Schemes/Data%20Science%20Project%20Cycle.png" min-width="400px" width="500px" align="center" alt="Classes_Data_Science">
 </center>
 
-Having different interpretations and variations, the chosen method is based on the **Crisp-DM** and presents the following phases:
+Having different interpretations and variations, the chosen method is based on the **Crisp-DS** and presents the following phases:
 - Analysis Phase
      - Data Collection
      - Data Cleaning

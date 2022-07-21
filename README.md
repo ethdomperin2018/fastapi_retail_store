@@ -53,7 +53,7 @@
   
 #### 📝 Método Utilizado
 
-O método utilizado para construir o projeto e a análise de vendas foi o **Crisp-DM**.
+O método utilizado para construir o projeto e a análise de vendas foi o **Crisp-DS**.
 
 ##### 📊 Esquema do Crisp-DM
 
@@ -65,7 +65,7 @@ O método utilizado para construir o projeto e a análise de vendas foi o **Cris
 <img src="Project/Schemes/Data%20Science%20Project%20Cycle.png" min-width="400px" width="500px" align="center" alt="Classes_Data_Science">
 </center>
 
-Tendo diversas interpretações e variações, o método escolhido é baseado no **Crisp-DM** e apresenta as seguintes fases:
+Tendo diversas interpretações e variações, o método escolhido é baseado no **Crisp-DS** e apresenta as seguintes fases:
 - Fase de Análise
     - Data Collection
     - Data Cleaning
