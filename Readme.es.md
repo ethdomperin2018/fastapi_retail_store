@@ -54,11 +54,11 @@
 
 El método utilizado para construir el proyecto y el análisis de ventas fue **Crisp-DS**.
 
-##### 📊 Esquema Crisp-DM
+##### 📊 Esquema Crisp-DS
 
 ![](Project/Schemes/Data%20Science%20Scheme.png)
 
-##### ⚙️ Ciclo de proyecto con Crisp-DM
+##### ⚙️ Ciclo de proyecto con Crisp-DS
 
 <center>
 <img src="Project/Schemes/Data%20Science%20Project%20Cycle.png" min-width="400px" width="500px" align="center" alt="Classes_Data_Science">
