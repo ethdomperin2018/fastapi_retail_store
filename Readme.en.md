@@ -51,11 +51,11 @@
 
 The method used to build the project and sales analysis was **Crisp-DS**.
 
-##### 📊 Crisp-DM Scheme
+##### 📊 Crisp-DS Scheme
 
 ![](Project/Schemes/Data%20Science%20Scheme.png)
 
-##### ⚙️ Project cycle with Crisp-DM
+##### ⚙️ Project cycle with Crisp-DS
 
 <center>
 <img src="Project/Schemes/Data%20Science%20Project%20Cycle.png" min-width="400px" width="500px" align="center" alt="Classes_Data_Science">
