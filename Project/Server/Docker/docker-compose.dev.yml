@@ -3,31 +3,31 @@
 # docker-compose -p App -f docker-compose.dev.yml --env-file ../../App/Env/Dev.env up --build
 # docker-compose --env-file label.env up
 services:
-  backend:
-    build:
-      context: ../../App/Backend # Path to the directory that will be used to build the image, the '.'
-      dockerfile: ../../App/Backend/Build/Dockerfile # Path to the Dockerfile used to build the image
-      args:
-        APP_ENV: ${APP_ENV}
-    env_file:
-      - ../../App/Env/Dev.env
-    ports:
-    - "80:8000"
-    volumes:
-      - .:/App
+    backend:
+        build:
+            context: ../../App/Backend # Path to the directory that will be used to build the image, the '.'
+            dockerfile: ../../App/Backend/Build/Dockerfile # Path to the Dockerfile used to build the image
+            args:
+                APP_ENV: ${APP_ENV}
+        env_file:
+            - ../../App/Env/Dev.env
+        ports:
+            - "80:8000"
+        volumes:
+            - .:/App
 
-  frontend:
-    build:
-      context: ../../App/Frontend/
-      dockerfile: ../../App/Frontend/Build/Dockerfile
-      args:
-        APP_ENV: ${APP_ENV}
-    env_file:
-      - ../../App/Env/Dev.env
-    ports:
-    - "81:8000"
-    volumes:
-      - .:/App
+    frontend:
+        build:
+            context: ../../App/Frontend/
+            dockerfile: ../../App/Frontend/Build/Dockerfile
+            args:
+                APP_ENV: ${APP_ENV}
+        env_file:
+        - ../../App/Env/Dev.env
+        ports:
+            - "81:8000"
+        volumes:
+            - .:/App
 
 #volumes:
 #- ../../App/Storage:/App/Storage
